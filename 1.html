@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+
+</head>
+<body>
+
+<a href="#2.html" data-tab="main">page 2</a>
+
+<button id="me">click me</button>
+
+<table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <th><input type="checkbox"/></th>
+        <th>名称</th>
+        <th>创建人</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>颜色</td>
+        <td>Admin</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>颜色</td>
+        <td>Admin</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"/></td>
+        <td>颜色</td>
+        <td>Admin</td>
+    </tr>
+    </tbody>
+</table>
+
+<script type="text/javascript">
+
+    require(['js/common'], function(common){
+        common.init();
+    });
+
+</script>
+
+</body>
+</html>
